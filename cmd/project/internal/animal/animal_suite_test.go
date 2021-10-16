@@ -1,4 +1,4 @@
-package application_test
+package animal_test
 
 import (
 	"testing"
@@ -9,5 +9,5 @@ import (
 
 func TestApplication(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Application Suite")
+	RunSpecs(t, "Animal Suite")
 }

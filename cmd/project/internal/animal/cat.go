@@ -1,13 +1,19 @@
 package animal
 
-type dog struct {
+import "fmt"
+
+type cat struct {
 	words string
 }
 
-func NewDog(words string) dog {
-	return dog{words}
+func NewCat(words string) cat {
+	return cat{words}
 }
 
-func (a dog) Speak() string {
-	return a.words
+func (c cat) Speak() string {
+	return c.words
+}
+
+func (c cat) Purr() {
+	fmt.Println("Purr")
 }

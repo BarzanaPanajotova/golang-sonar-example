@@ -9,7 +9,7 @@ import (
 var _ = Describe("Application", func() {
 
 	It("test", func() {
-		app := animal.New("Woff")
+		app := animal.NewDog("Woff")
 		Expect(app.Speak()).To(Equal("Woff"))
 	})
 })
