@@ -1,4 +1,4 @@
-## Golang Sonar Example
+## Golang Sonar Example with Ginkgo
 
 To run the tests execute from the root directory
 ```shell
